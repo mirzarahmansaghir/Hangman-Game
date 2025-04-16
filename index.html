@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Guessing Game</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Game Container -->
+  <div class="container">
+    
+    <!-- Category Options -->
+    <div id="options-container"></div>
+
+    <!-- Letter Buttons (A-Z) -->
+    <div id="letter-container" class="letter-container hide"></div>
+
+    <!-- Word Display Area -->
+    <div id="user-input-section"></div>
+
+    <!-- Hangman Canvas -->
+    <canvas id="canvas" width="200" height="150"></canvas>
+
+    <!-- New Game Popup -->
+    <div id="new-game-container" class="new-game-popup hide">
+      <div id="result-text"></div>
+      <button id="new-game-button">New Game</button>
+    </div>
+    
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
